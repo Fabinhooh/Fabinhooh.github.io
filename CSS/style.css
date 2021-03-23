@@ -1,12 +1,7 @@
-/* Corpo */
-
 body {
-    font-family: 'Kufam', cursive;
-    background-color: rgb(20, 150, 236);
-}
-
-h1, h2, h3 {
     font-family: "Kufam", cursive;
+}
+h1, h2, h3 {
     color: #200a55;
     text-align: center;
 }
@@ -88,6 +83,8 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
  button {
@@ -99,7 +96,7 @@ h1, h2, h3 {
 
 input {
     height: 26px;
-    width: 360px;
+    width: 330px;
     border-radius: 12px;
     border-color: rgb(182, 122, 61);
 }

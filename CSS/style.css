@@ -87,18 +87,27 @@ div#responsive-imgs img {
   margin: 20px auto;
 }
 
- button {
-    border-radius: 36px;
-    color:rgb(6, 120, 169);
-    height: 35px;
-    width: 130px;
+button {
+    background-color: rgb(62, 11, 156);
+    color:rgb(247, 247, 247);
+    border: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 18px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
 }
 
+.button a :hover{
+    background-color: rgb(90, 7, 185);
+}
 input {
     height: 26px;
     width: 330px;
-    border-radius: 12px;
-    border-color: rgb(182, 122, 61);
+    border-radius: 8px;
+    border-color: rgb(34, 0, 53);
 }
 
 .gif {

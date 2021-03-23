@@ -31,10 +31,6 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-.navbar a.right {
-    float:right;
-}
-
 .navbar a:hover {
     background-color: #c511b0;
     color: black;

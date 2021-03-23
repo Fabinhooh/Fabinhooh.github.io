@@ -13,6 +13,7 @@ h1, h2, h3 {
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
     background-color: #AB91EB;
     position: sticky;

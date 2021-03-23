@@ -19,8 +19,6 @@ h1, h2, h3 {
     background-color: #AB91EB;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
-    width: auto;
 }
 .navbar a {
     float: left;
@@ -71,6 +69,7 @@ h1, h2, h3 {
 
 @media screen and (min-width: 768px) {
     .navbar {
+
         justify-content: space-around;
     }
     

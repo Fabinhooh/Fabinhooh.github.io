@@ -14,7 +14,6 @@ h1, h2, h3 {
 .navbar {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     overflow: hidden;
     background-color: #AB91EB;
     position: sticky;
@@ -50,9 +49,6 @@ h1, h2, h3 {
 
 /*detalhes*/
 
-.p {
-    margin-bottom: 2em;
-}
 .row {
    background-color: #F598E3; 
 }
@@ -68,10 +64,6 @@ h1, h2, h3 {
 /* SITE RESPONSIVO */
 
 @media screen and (min-width: 768px) {
-    .navbar {
-
-        justify-content: space-around;
-    }
     
     .header {
         height: 60px;

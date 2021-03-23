@@ -69,9 +69,8 @@ h1, h2, h3 {
 
 /* SITE RESPONSIVO */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
     .navbar {
-        flex-direction: initial;
         justify-content: space-around;
     }
     

@@ -20,7 +20,7 @@ h1, h2, h3 {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    width: 100%;
+    width: auto;
 }
 .navbar a {
     float: left;
@@ -69,7 +69,7 @@ h1, h2, h3 {
 
 /* SITE RESPONSIVO */
 
-@media screen and (min-width: 1239px) {
+@media screen and (min-width: 1000px) {
     .navbar {
         flex-direction: row;
         justify-content: space-around;

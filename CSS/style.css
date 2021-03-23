@@ -60,14 +60,3 @@ h1, h2, h3 {
     padding: 10px;
     background: rgb(125, 7, 204);
 }
-
-/* SITE RESPONSIVO */
-
-@media screen and (min-width: 768px) {
-    
-    .header {
-        height: 60px;
-        height: 6vh;
-        justify-content: center;
-    }
-}

@@ -1,22 +1,27 @@
+/* Corpo */
+
 body {
-    background-color: turquoise;
+    font-family: 'Kufam', cursive;
+    background-color: rgb(20, 150, 236);
 }
 
-.header {
- padding: 80px;
- text-align: center;
- background: #D396DF;
- color: black;
+h1, h2, h3 {
+    color: #200a55;
 }
+
+/* Navegação */
 
 .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     overflow: hidden;
     background-color: #AB91EB;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    width: 100%;
 }
-
 .navbar a {
     float: left;
     display:block;
@@ -31,20 +36,52 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #da45c8;
+    background-color: #c511b0;
     color: black;
 }
 
 .navbar a.active {
-    background-color: rgb(161, 68, 184);
+    background-color: rgb(159, 21, 172);
     color:white;
+}
+
+.header {
+ display: flex;
+ flex-direction: column;
+ padding: 60px;
+ text-align: center;
+ background: #D396DF;
+ color: black;
+}
+
+/*detalhes*/
+
+.p {
+    margin-bottom: 2em;
 }
 .row {
    background-color: #F598E3; 
 }
 
+/*rodapé*/
+
 .footer {
-    padding: 20px;
     text-align: center;
-    background: rgb(170, 44, 124);
+    padding: 10px;
+    background: rgb(125, 7, 204);
+}
+
+/* SITE RESPONSIVO */
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .header {
+        height: 60px;
+        height: 6vh;
+        justify-content: center;
+    }
 }

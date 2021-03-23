@@ -1,6 +1,5 @@
 body {
-    font-family: "Kufam", cursive;
-}
+font-family: 'Fira Sans', sans-serif;}
 h1, h2, h3 {
     color: #200a55;
     text-align: center;
@@ -79,12 +78,11 @@ h1, h2, h3 {
 
 /* DETALHES */
 
-.images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    position: sticky;
-    position: -webkit-sticky;
+div#responsive-imgs img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
 }
 
  button {

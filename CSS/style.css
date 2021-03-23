@@ -12,6 +12,7 @@ h1, h2, h3 {
 /* Navegação */
 
 .navbar {
+    display: flex;
     overflow: hidden;
     background-color: #AB91EB;
     position: sticky;
@@ -47,6 +48,9 @@ h1, h2, h3 {
 
 /*detalhes*/
 
+.p {
+    margin-bottom: 2em;
+}
 .row {
    background-color: #F598E3; 
 }
@@ -57,4 +61,18 @@ h1, h2, h3 {
     text-align: center;
     padding: 10px;
     background: rgb(125, 7, 204);
+}
+
+/* SITE RESPONSIVO */
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+    }
+    
+    .header {
+        height: 60px;
+        height: 6vh;
+        justify-content: center;
+    }
 }

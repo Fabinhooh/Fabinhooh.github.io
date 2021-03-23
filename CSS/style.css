@@ -12,8 +12,6 @@ h1, h2, h3 {
 /* Navegação */
 
 .navbar {
-    display: flex;
-    flex-direction: row;
     overflow: hidden;
     background-color: #AB91EB;
     position: sticky;

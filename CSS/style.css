@@ -1,5 +1,7 @@
 body {
-font-family: 'Fira Sans', sans-serif;}
+font-family: 'Fira Sans', sans-serif;
+background-color: rgb(17, 136, 175);
+}
 h1, h2, h3 {
     color: #200a55;
     text-align: center;
